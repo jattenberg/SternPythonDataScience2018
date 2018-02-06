@@ -10,7 +10,9 @@ The creation and maintenance of this project attempts to show the work that can 
 
 ## Installation
 
-The basic libraries required for the notebooks are: pandas, numpy, datetime, os, sys, math, pickle, random, csv, matplotlib, pyplot, wordcloud, scipy, and sklearn, seaborn.
+On Jupyter Hub, initially create a new python notebook. Copy the contents of the [first cell of this notebook](https://github.com/jattenberg/SternPythonDataScience2018/blob/master/Clone.ipynb) into the first cell of your newly created notebook. Running this command (the play button on top) will clone this repository. 
+
+To get regular content updates, execute the first cell of the `Update` notebook found in your newly created repository. 
 
 
 ## Contributors
