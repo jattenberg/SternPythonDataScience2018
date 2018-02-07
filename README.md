@@ -21,6 +21,4 @@ Prof. Foster Provost - NYU Stern School of Business [Website](http://people.ster
 
 Prof Josh Attenberg - NYU Stern School of Business [@jattenberg](twitter.com/jattenberg)
 
-## TA
-
-Apostolos Filippas - NYU Stern School of Business [Website](http://apostolosfilippas.com)
+** TA: ** Apostolos Filippas - NYU Stern School of Business [Website](http://apostolosfilippas.com)
