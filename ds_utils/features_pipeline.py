@@ -4,6 +4,7 @@ from collections import Counter, OrderedDict
 import numpy as np
 from pandas import DataFrame
 import os
+import functools
 
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.pipeline import Pipeline, FeatureUnion, make_pipeline
@@ -147,5 +148,5 @@ def pipeline_from_config_file(filename):
 
 def pipeline_from_config(configuration):
     transformers = [[transformer_from_config(field_config['field'], transformer_config) for transformer_config in field_config['transformers']] for field_config in configuration]
-    transformer_list = reduce(lambda x,y: x+y, transformers)
+    transformer_list = functools.reduce(lambda x,y: x+y, transformers)
     return Pipeline([('union', FeatureUnion(transformer_list=transformer_list))])
