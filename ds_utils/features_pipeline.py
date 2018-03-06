@@ -1,10 +1,11 @@
 import logging
 import re
 from collections import Counter, OrderedDict
+from unidecode import unidecode
+from bs4 import BeautifulSoup
 import numpy as np
 from pandas import DataFrame
 import os
-from functools import reduce
 
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.pipeline import Pipeline, FeatureUnion, make_pipeline
