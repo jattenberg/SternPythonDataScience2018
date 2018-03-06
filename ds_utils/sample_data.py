@@ -2,6 +2,9 @@ from features_pipeline import pipeline_from_config
 import pandas as pd
 from sklearn.datasets import make_blobs
 import numpy as np
+import sys
+
+sys.path.append(".")
 
 def get_car_data(classification=True):
     url = "http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data-original"
