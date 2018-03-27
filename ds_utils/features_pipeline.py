@@ -1,7 +1,6 @@
 import logging
 import re
 from collections import Counter, OrderedDict
-from unidecode import unidecode
 from bs4 import BeautifulSoup
 import numpy as np
 from pandas import DataFrame
