@@ -1,6 +1,5 @@
 import pandas as pd
 import os
-from .features_pipeline import pipeline_from_config
 
 def load_spam_ham():
     filename = os.path.join(os.path.dirname(os.path.realpath(__file__)), "data", "spam_ham.csv")
